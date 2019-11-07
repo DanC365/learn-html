@@ -1,8 +1,6 @@
-# learn-html
-A trivial hello world website with basic web HTML/CSS/Javascript
+#connecting your code to a live Netlify repo
 
-
-#HTML
+#learn-html
 ##Semantic Elements
 Semantic elements are HTML 'div' elements which have a name related to the function.
 Examples
