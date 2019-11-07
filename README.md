@@ -1,4 +1,3 @@
-#connecting your code to a live Netlify repo
 
 #learn-html
 ##Semantic Elements
@@ -9,3 +8,6 @@ Examples
 	aside
 	header
 	footer
+
+
+#connecting your code to a live Netlify repo
