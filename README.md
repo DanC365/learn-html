@@ -40,7 +40,7 @@ We can use regular html for images
 
 we can also <span style="text-decoration:underline">underline</span> text
 
-###Code highlighting
+### Code highlighting
 ```
 int x=1;
 ```
@@ -51,4 +51,5 @@ int x=1;
 ```java
 int x=1;
 ```
+
 
