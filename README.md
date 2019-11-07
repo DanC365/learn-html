@@ -38,4 +38,4 @@ We can use regular html for images
 
 <img src="https://static.boredpanda.com/blog/wp-content/uploads/2019/10/norwegian-forest-cats-sampy-hiskias-fb47-png__700.jpg" width="350" />
 
-we can also <u>underline</u> text
+we can also <span style="text-decoration:underline">underline</span> text
