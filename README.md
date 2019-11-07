@@ -2,11 +2,17 @@
 # learn-html
 ## Semantic Elements
 Semantic elements are HTML 'div' elements which have a name related to the function.
+
 Examples
+
 	nav
+
 	section
+
 	aside
+
 	header
+
 	footer
 
 
@@ -19,7 +25,9 @@ Examples
 ### Sub-Sub-Header
 
 *italics*
+
 **bold**
+
 ***bold italics***
 
 This is a `highlight` for individual words or blocks of text
