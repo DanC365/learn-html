@@ -36,4 +36,4 @@ This is a `highlight` for individual words or blocks of text
 
 We can use regular html for images
 
-<img src="https://static.boredpanda.com/blog/wp-content/uploads/2019/10/norwegian-forest-cats-sampy-hiskias-fb47-png__700.jpg" width="150" />
+<img src="https://static.boredpanda.com/blog/wp-content/uploads/2019/10/norwegian-forest-cats-sampy-hiskias-fb47-png__700.jpg" width="350" />
