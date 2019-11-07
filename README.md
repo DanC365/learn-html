@@ -1,6 +1,6 @@
 
-#learn-html
-##Semantic Elements
+# learn-html
+## Semantic Elements
 Semantic elements are HTML 'div' elements which have a name related to the function.
 Examples
 	nav
@@ -10,4 +10,4 @@ Examples
 	footer
 
 
-#connecting your code to a live Netlify repo
+# connecting your code to a live Netlify repo
