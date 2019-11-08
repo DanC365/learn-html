@@ -14,11 +14,33 @@
 	<h1>Hello world web page</h1>
 	<p>Sample web page</p>
 	<script>
-		function runThisSometimes(){
-			alert('run this sometimes');
+		//var outside a function is Global Scoped
+		var thisIsAGlobalVariable = 22;
+		var myArray = [];
+		function pushToArray(){
+			//alert('run this sometimes');
+			
+			myArray.push(thisIsAGlobalVariable);
+			console.log(myArray);
+
+		}
+		console.log(thisIsAGlobalVariable);
+
+		function popFromArray(){
+			myArray.pop();
+			console.log(myArray);
+		}
+
+		function incrementValue(){
+			thisIsAGlobalVariable += 10;
+			console.log(thisIsAGlobalVariable);
+			document.getElementById("putSomeDataHere").innerText=thisIsAGlobalVariable;
 		}
 	</script>
-	<button onclick="runThisSometimes()">Run this sometimes</button>
+	<button onclick="incrementValue()">Increase Value</button>
+	<button onclick="pushToArray()">Push to Array</button>
+	<button onclick="popFromArray()">Pop from Array</button>
+
 	<ul>
 		<li>Item</li>
 		<li>Item</li>
@@ -30,7 +52,7 @@
 		<li>Item</li>
 		<li>Item</li>
 	</ol>	
-
+	<div id="putSomeDataHere">Some data goes here</div>
 
 </body>
 </html>
